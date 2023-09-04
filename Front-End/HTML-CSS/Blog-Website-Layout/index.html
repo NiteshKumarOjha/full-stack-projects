@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="style.css" rel="stylesheet" />
+    <title>The Basic Language of the web: HTML</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- 
+    <h1>The Basic Language of the web: HTML</h1>
+    <h2>The Basic Language of the web: HTML</h2>
+    <h3>The Basic Language of the web: HTML</h3>
+    <h4>The Basic Language of the web: HTML</h4>
+    <h5>The Basic Language of the web: HTML</h5>
+    <h6>The Basic Language of the web: HTML</h6> 
+    -->
+      <header class="main-header clearfix">
+        <h1>The Web Chronicles</h1>
+
+        <nav>
+          <a href="blog.html">Blog</a>
+          <a href="css-grid.html">CSS Grid</a>
+          <a href="flexbox.html">Flexbox</a>
+        </nav>
+        <!-- <div class="clear"></div> -->
+      </header>
+      <!-- ONLY NECESSARY FOR FLEXBOX -->
+      <!-- <div class="row"> -->
+      <article>
+        <header class="post-header">
+          <h2>An Introductory Guide to Web Development</h2>
+          <div class="author-box">
+            <img
+              src="My content/Tom-dialing-phone.jpg"
+              alt="tom using a telephone"
+              width="125"
+              class="author-img"
+            />
+
+            <p id="author" class="author">
+              <strong>TOM</strong> · August 24, 2023 · 📖 9 min read
+            </p>
+          </div>
+          <button>❤️ Like</button>
+        </header>
+
+        <!-- <p>
+          Welcome to
+          <strong
+            >The Web Chronicles: Knowledge from the Universe of
+            Development</strong
+          >! This <em>blog series</em> aims to take you on a journey through the
+          exciting realm of web development. In this first part, we'll delve
+          into the fundamentals, starting with the Internet and gradually
+          exploring key concepts and technologies. So, let's get started on this
+          enlightening adventure!
+        </p> -->
+
+        <img
+          src="My content/internet.jpg"
+          alt="various internet symbols shown above tall buildings"
+          width="750"
+          height="500"
+          class="post-image"
+        />
+        <h3>Internet: The Foundation of the Web</h3>
+
+        <p><strong>What is the Internet?</strong></p>
+
+        <p>
+          The Internet is a global network of interconnected computers and
+          devices that enables the exchange of information and communication. It
+          provides a vast array of services, including email, web browsing, file
+          sharing, and more.
+        </p>
+
+        <p><strong>How Data Travels: Unraveling Data Transmission</strong></p>
+
+        <p>
+          Data travels across the internet in a fascinating way. Picture it as a
+          journey of small packages called packets. These packets contain
+          fragments of the data, along with special labels indicating the
+          sender's and receiver's addresses. As the packets embark on their
+          voyage, they don't follow a single predetermined path. Instead, they
+          navigate through a network of interconnected routers. These routers
+          act as guides, examining the labels on the packets and directing them
+          along the most efficient paths available at that moment.
+        </p>
+
+        <p>
+          Once the packets arrive at their destination, they are received by the
+          recipient's device. Here, a careful process of reassembly takes place.
+          The device examines the addressing information on each packet and
+          carefully arranges them in the correct order. As the packets are
+          reassembled, the original data is reconstructed, allowing the intended
+          recipient to access and utilize the information sent by the sender.
+        </p>
+
+        <p>
+          This journey of data packets, with routers as the navigators, ensures
+          that information can travel reliably and efficiently across the vast
+          expanse of the internet. It's like a coordinated dance, where each
+          packet finds its way through the network to reach its final
+          destination, enabling seamless communication and information exchange
+          between devices across the globe.
+        </p>
+
+        <p>
+          <strong>Five of the most important benefits of the Internet</strong>
+        </p>
+
+        <ol>
+          <li class="first-li">Access to Information</li>
+          <li>Communication and Connectivity</li>
+          <li>E-Commerce and Online Shopping</li>
+          <li>Access to Services and Opportunities</li>
+          <li>Innovation and Empowerment</li>
+        </ol>
+
+        <!-- <p>HTML stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage -->
+
+        <h3>Web: The Digital Universe of Websites</h3>
+        <img src="My content/www.jpg" width="750" height="500" />
+        <p><strong>What is the Web?</strong></p>
+        <p>
+          The web, short for World Wide Web (WWW), is a system of interconnected
+          web pages and resources accessed through the Internet. It is built
+          upon technologies such as HTML, CSS, and JavaScript, and allows users
+          to navigate between websites and access various types of content.
+        </p>
+        <strong>Components of the Web</strong>
+        <ul>
+          <li class="first-li">Web Browsers</li>
+          <li>Web Servers</li>
+          <li>Hypertext Transfer Protocol (HTTP)</li>
+          <li>Uniform Resource Locators (URLs)</li>
+        </ul>
+
+        <p>
+          You can learn more at
+          <a
+            href="https://codernitesh.hashnode.dev/an-introductory-guide-to-web-development"
+            target="_blank"
+            >Blog by Nitesh Kumar Ojha</a
+          >
+        </p>
+      </article>
+
+      <aside>
+        <h4>Related post</h4>
+        <ul class="related">
+          <li class="related-post">
+            <img
+              src="My content/introduction.jpg"
+              alt=" One Computer, one laptop, one tablet on a desk"
+              height="75"
+            />
+            <div>
+              <a
+                href="https://codernitesh.hashnode.dev/an-introductory-guide-to-web-development"
+                target="_blank
+          "
+                class="related-link"
+                >Web Development Guide</a
+              >
+              <p class="related-author">By Nitesh Kumar Ojha</p>
+            </div>
+          </li>
+          <li class="related-post">
+            <img
+              src="My content/roadmap.jpg"
+              alt="dual monitor setup with a spects kept infront of the setup"
+              height="75"
+            />
+            <div>
+              <a
+                href="https://www.geeksforgeeks.org/web-development"
+                target="_blank
+          "
+                class="related-link"
+                >Web Development Roadmap</a
+              >
+              <p class="related-author">By GeeksForGeeks</p>
+            </div>
+          </li>
+          <li class="related-post">
+            <img
+              src="My content/tools.jpg"
+              alt="dual monitor setup"
+              height="75"
+            />
+            <div>
+              <a
+                href="https://www.hostinger.com/tutorials/web-development-tools"
+                target="_blank
+              "
+                class="related-link"
+                >Web Development Tools</a
+              >
+
+              <p class="related-author">By Hostinger</p>
+            </div>
+          </li>
+        </ul>
+      </aside>
+      <!-- </div> -->
+      <footer>
+        <p id="copyright" class="copyright text">
+          Copyright &copy; 2023 by Nitesh Kumar Ojha
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
